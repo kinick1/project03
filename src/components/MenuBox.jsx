@@ -1,8 +1,8 @@
-const MenuBox=()=>{
+const MenuBox=(props)=>{
     return(
         <div>
-            <p>아메리카노</p>
-            <p>3500원</p>
+            <p>{props.temp} {props.name}</p>
+            <p>{props.price}$</p>
         </div>
     )
 }
